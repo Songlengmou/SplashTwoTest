@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".act.SixActivity"></activity>
         <activity android:name=".five.LoginActivity" />
         <activity android:name=".act.FiveActivity" />
         <activity android:name=".four.WelcomeGuideActivity" />

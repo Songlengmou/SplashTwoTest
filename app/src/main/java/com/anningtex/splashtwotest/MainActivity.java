@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.anningtex.splashtwotest.act.FiveActivity;
 import com.anningtex.splashtwotest.act.FourActivity;
 import com.anningtex.splashtwotest.act.OneActivity;
+import com.anningtex.splashtwotest.act.SixActivity;
 import com.anningtex.splashtwotest.act.ThreeActivity;
 import com.anningtex.splashtwotest.act.TwoActivity;
 
@@ -17,7 +18,7 @@ import com.anningtex.splashtwotest.act.TwoActivity;
  * @author Administrator
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private Button mBtnOne, mBtnTwo, mBtnThree, mBtnFour, mBtnFive;
+    private Button mBtnOne, mBtnTwo, mBtnThree, mBtnFour, mBtnFive, mBtnSix;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mBtnFour.setOnClickListener(this);
         mBtnFive = findViewById(R.id.btn_five);
         mBtnFive.setOnClickListener(this);
+        mBtnSix = findViewById(R.id.btn_six);
+        mBtnSix.setOnClickListener(this);
     }
 
     @Override
@@ -56,6 +59,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_five:
                 startActivity(new Intent(MainActivity.this, FiveActivity.class));
+                break;
+            case R.id.btn_six:
+                startActivity(new Intent(MainActivity.this, SixActivity.class));
                 break;
             default:
                 break;
