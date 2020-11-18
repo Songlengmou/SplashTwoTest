@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SplashTest</string>
+
+    <string name="prompt_email">Account</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_out">退出</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="add_user">添加用户名</string>
+</resources>

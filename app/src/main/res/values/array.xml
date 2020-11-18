@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="account_type_name">
+        <item>Student</item>
+        <item>Teacher</item>
+        <item>ClassTeacher</item>
+        <item>Administrators</item>
+    </string-array>
+
+    <string-array name="weekday_spinner">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+</resources>
